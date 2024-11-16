@@ -1,0 +1,67 @@
+.CourseMenu {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+}
+
+.LessonMenu {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+}
+
+A:link { 
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+A:hover { 
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+A:visited { 
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	text-decoration: none;
+	color: #FFFFFF; 
+}
+
+H2 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+H3 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+

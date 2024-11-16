@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+</style>
+<link href="../../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+
+
+
+<script type="text/javascript" src="../../js/Data.js" defer="defer"></script>
+
+<!--SCRIPT END BLOCK-->
+<script language="javascript">
+function open_edit_window( myLocation, myName, myWidth, myHeight) {
+		myWin= open(myLocation, myName ,"width="+myWidth+",height="+myHeight+",location=no,status=no,toolbar=no,menubar=no,scrollbars=auto,top=0,left=0");
+		myWin.focus();		
+}
+function Clicked(e)
+{
+    if (e.keyCode == 13) 
+    {
+        open_edit_window( 'Text_swf_d.html', 'myName', '400', '300');
+    }
+}
+
+</script>
+</head>
+<body onLoad="writeTags();" onkeydown="page_Keydown(event,this);">
+
+<table width="100%"  height="100%" border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="16%" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+    <td align="left" valign="top" height="77%"><table width="990" border="0" cellpadding="10" cellspacing="0">
+      <tr>
+        <td valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td colspan="4" valign="top" tabindex="2"><div><img src="../../module6/images/kw_symbol.jpg" alt="Knowledge Check Icon" align="right" valign="top"></div>
+			<span class="pagetitle" style="font-size:large"><a name="maincontent" id="maincontent"></a>Knowledge Check Question</span><br />
+                <br />Mindsets can:<br><br>Select your choice, then select Submit. You will be given two attempts to answer the question.<br>If the question is answered incorrectly twice, then the correct answer will be automatically selected for you.</span><br><br></td>
+          </tr>
+          <form action="" name="form1" id="form1">
+            <tr>
+              <td align="left" valign="top"><input tabindex="3" type="radio" alt="radio button 1" name="Quiz" value="1" id="Quiz1" onClick="javascript:ChangeState()" /></td>
+              <td width="1%" align="left" valign="top">&nbsp;</td>
+              <td colspan="2"><label for  = "Quiz1">A. Point out the conclusion to our problem</label>
+                  <br><br></td>
+              <!-- paste the distractor between the label tags, don't edit anything else in the table -->
+            </tr>
+            <tr>
+              <td align="left" valign="top"><input tabindex="4" type="radio" alt="radio button 2" name="Quiz" value="2" id="Quiz2" onClick="javascript:ChangeState()" /></td>
+              <td width="1%" align="left" valign="top">&nbsp;</td>
+              <td colspan="2"><label for  = "Quiz2">B. Guide us in our analysis</label>
+                  <br><br></td>
+              <!-- paste the distractor between the label tags, don't edit anything else in the table -->
+            </tr>
+            <tr>
+              <td align="left" valign="top"><input tabindex="5" type="radio" alt="radio button 3" name="Quiz" value="3" id="Quiz3" onClick="javascript:ChangeState()" /></td>
+              <td width="1%" align="left" valign="top">&nbsp;</td>
+              <td colspan="2"><label for  = "Quiz3">C. Color and control our perception</label>
+                  <br><br></td>
+              <!-- paste the distractor between the label tags, don't edit anything else in the table -->
+            </tr>
+            <tr>
+              <td align="left" valign="top"><input tabindex="6" type="radio" alt="radio button 4" name="Quiz" value="4" id="Quiz4" onClick="javascript:ChangeState()" /></td>
+              <td width="1%" align="left" valign="top">&nbsp;</td>
+              <td colspan="2"><label for  = "Quiz4">D. Show us what the real truth is</label>
+                  <br><br></td>
+              <!-- paste the distractor between the label tags, don't edit anything else in the table -->
+            </tr>
+            <tr>
+              <td colspan="4" align="left" style="padding-top:10px"><!--<p><a href="javascript:Clicked()" ></a></p>-->
+                  <!--<input type=button id="btnSubmit" value="Done" name="Submit"  onclick="javascript:SubmitClicked()"/></td>-->
+                  <img src="../../images/submit_enable.jpg" alt="Submit your answer" name="submitme" width="78" height="27" id="submitme" onClick="javascript:SubmitClicked()" onKeyPress="javascript:Clicked(event)" tabindex="7" /> <img src="../../images/submit_disable.jpg" alt="Submit Disable" name="submit" width="78" height="27" id="Img1" tabindex="8" /></td>
+              </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td width="10" valign="top"></td>
+              <td width="100%" valign="top"></td>
+            </tr>
+          </form>
+        </table>
+        <script language="JavaScript" src="../../js/FeedbackMC.js" type="text/javascript"></script>
+    <script language="JavaScript" type="text/javascript">
+var vCorrectAnswer = "3" // enter the item number of the correct distractor
+var vCorrectAnswerString="color and control our perception."
+var vType ="Knowledge"
+var vQues="Mindsets can"
+
+    </script></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+<td height="7%" valign="bottom"><div id="divFooter"></div></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#Layer1 {
+	position:absolute;
+	width:84px;
+	height:28px;
+	z-index:2;
+	left: 534px;
+	top: 232px;
+}
+-->
+</style>
+<script type="text/javascript" src="JS/Data.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage_Other() { //v3.0
+  var i,j=0,x,a=MM_swapImage_Other.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage()
+{ //v3.0
+
+	var modName = MM_swapImage.arguments[3];
+	//alert(isModuleCompleted(modName));
+	if(isModuleCompleted(modName)== false)
+	{
+		return;
+	}
+
+    var completedModule = window.opener.ModuleCompleted ;
+    if(completedModule == "module1")
+    {
+        document.getElementById("Image2").src="images/modu1_link_tick.jpg";
+    }
+
+	var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   	if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+	//alert(x.src);
+}
+
+function showHideLayer(menuId)
+{
+
+    var completedModule= window.opener.ModuleCompleted;
+
+//    alert("completedModule:- "+completedModule);
+
+    if((completedModule== "" || completedModule=="undefined" || completedModule==undefined || completedModule==null) && (menuId=="module2" || menuId=="module3" || menuId=="module4" || menuId=="module5" || menuId=="module6" || menuId=="module7" || menuId=="module8" || menuId=="module9" || menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {
+
+    return; }
+
+    if(completedModule== "module1" && (menuId=="module3" || menuId=="module4" || menuId=="module5" || menuId=="module6" || menuId=="module7" || menuId=="module8" || menuId=="module9" || menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {   return; }
+	else if(completedModule== "module2" && ( menuId=="module4" || menuId=="module5" || menuId=="module6" || menuId=="module7" || menuId=="module8" || menuId=="module9" || menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {   return; }
+	else if(completedModule== "module3" && ( menuId=="module5" || menuId=="module6" || menuId=="module7" || menuId=="module8" || menuId=="module9" || menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {   return; }
+	else if(completedModule== "module4" && (menuId=="module6" || menuId=="module7" || menuId=="module8" || menuId=="module9" || menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {   return; }
+    else if(completedModule== "module5" && ( menuId=="module7" || menuId=="module8" || menuId=="module9" || menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {   return; }
+    else if(completedModule== "module6" && ( menuId=="module8" || menuId=="module9" || menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {   return; }
+    else if(completedModule== "module7" && ( menuId=="module9" || menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {   return; }
+    else if(completedModule== "module8" && ( menuId=="module10" || menuId=="module11" || menuId=="module12"))
+    {   return; }
+    else if(completedModule== "module9" && ( menuId=="module11" || menuId=="module12"))
+    {   return; }
+    else if(completedModule== "module10" && ( menuId=="module12"))
+    {   return; }
+
+    var divId;
+	//
+    if(menuId=="module1")
+    {
+        divId="divSideMenu";
+        document.all["divSideMenu2"].style.visibility="hidden";
+        document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+
+    }
+    else if(menuId=="module2")
+    {
+        divId="divSideMenu2";
+        document.all["divSideMenu"].style.visibility="hidden";
+        document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+    else if(menuId=="module3")
+    {
+        divId="divSideMenu3";
+		document.all["divSideMenu"].style.visibility="hidden";
+        document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+    else if(menuId=="module4")
+    {
+        divId="divSideMenu4";
+        document.all["divSideMenu"].style.visibility="hidden";
+        document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+	else if(menuId=="module5")
+    {
+        divId="divSideMenu5";
+        document.all["divSideMenu"].style.visibility="hidden";
+        document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+	else if(menuId=="module6")
+    {
+        divId="divSideMenu6";
+        document.all["divSideMenu"].style.visibility="hidden";
+        document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+    else if(menuId=="module7")
+	{
+		divId="divSideMenu7";
+		document.all["divSideMenu"].style.visibility="hidden";
+		document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+    else if(menuId=="module8")
+	{
+		divId="divSideMenu8";
+		document.all["divSideMenu"].style.visibility="hidden";
+		document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+    else if(menuId=="module9")
+	{
+		divId="divSideMenu9";
+		document.all["divSideMenu"].style.visibility="hidden";
+		document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+    else if(menuId=="module10")
+	{
+		divId="divSideMenu10";
+		document.all["divSideMenu"].style.visibility="hidden";
+		document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+    else if(menuId=="module11")
+	{
+		divId="divSideMenu11";
+		document.all["divSideMenu"].style.visibility="hidden";
+		document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu12"].style.visibility="hidden";
+    }
+    else if(menuId=="module12")
+	{
+		divId="divSideMenu12";
+		document.all["divSideMenu"].style.visibility="hidden";
+		document.all["divSideMenu2"].style.visibility="hidden";
+		document.all["divSideMenu3"].style.visibility="hidden";
+		document.all["divSideMenu4"].style.visibility="hidden";
+		document.all["divSideMenu5"].style.visibility="hidden";
+		document.all["divSideMenu6"].style.visibility="hidden";
+		document.all["divSideMenu7"].style.visibility="hidden";
+		document.all["divSideMenu8"].style.visibility="hidden";
+		document.all["divSideMenu9"].style.visibility="hidden";
+		document.all["divSideMenu10"].style.visibility="hidden";
+		document.all["divSideMenu11"].style.visibility="hidden";
+    }
+
+	if(typeof(divId) != "undefined")
+	{
+		if(document.all[divId].style.visibility=="visible")
+			document.all[divId].style.visibility="hidden";
+		else
+			document.all[divId].style.visibility="visible";
+    }
+
+}
+
+function StartAssessment()
+{
+
+	var completedModule= window.opener.ModuleCompleted;
+	if(completedModule == "module12" || completedModule == "module13")
+	{
+		window.opener.clearAllPreviousData();
+
+		location.href = "assessment/assessment_0_a.html";
+	}
+
+	if(completedModule != "module12")
+	{
+		return;
+	}/**/
+}
+function readCookie1()
+{
+	var name ="DHS";
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+function readCookie()
+{
+	var data = readCookie1();
+
+	if (data !=null && data !="")
+	{
+
+		path1 = data;
+
+		col_array1 = path1.split("$");
+		
+		//commented by mukesh
+		window.opener.ModuleCompleted = col_array1[1];
+
+		path = col_array1[0];
+		if(path != "")
+		{
+			//alert(window.opener.IsCourseFirstTime);
+			if(window.opener.IsCourseFirstTime )
+			{
+				window.opener.IsCourseFirstTime = false;
+
+				if (confirm("Do you want to navigate to the previously bookmarked page in the course?"))
+				{
+					open_edit_window( path, 'REVIEW','1010','670')
+				}
+			}
+		}
+	}/**/
+}
+
+function fnNavigate()
+{
+
+	if( window.opener.API != null )
+	{
+		var path1 = window.opener.Bookmark_location;
+		var col_array1;
+
+		fnRetriveValue();
+
+		col_array1 = path1.split("$");
+		path = col_array1[0];
+		if(path != "")
+		{
+			//alert(window.opener.IsCourseFirstTime);
+			if(window.opener.IsCourseFirstTime )
+			{
+				window.opener.IsCourseFirstTime = false;
+
+				if (confirm("Do you want to navigate to the previously bookmarked page in the course?"))
+				{
+					open_edit_window( path, 'REVIEW','1010','670')
+				}
+			}
+		}
+	}
+}
+
+function fnRetriveValue()
+{
+	tempPage= get_val("cmi.core.lesson_location");
+	//alert("in init got page from LMS"+tempPage);
+	Bookmark_location=tempPage;
+	arBookmarkStatus = Bookmark_location.split("$");//ReturnStringPath.split("$");
+	modId = arBookmarkStatus[1];
+	//alert("INIT modId - " + modId);
+	window.opener.ModuleCompleted = arBookmarkStatus[1];
+	//alert("from lms = "+window.opener.ModuleCompleted);
+	//window.opener.ModuleCompleted = "module12";
+}
+
+function fnConfirmExit()
+{
+ if (confirm("Are you sure you want to exit the course ?"))
+			{ 
+					window.opener.IsCourseFirstTime = true;
+					 window.close();
+			} else {          
+				
+			} 
+}
+//-->
+</script>
+</head>
+
+<body onload="readCookie();fnNavigate();setMenuImage();MM_preloadImages('mod_1_over.png','mod2_over.jpg','DHS_menu_images/mod1_over.jpg','images/post_it_2.jpg','images/modu1_link_ov.jpg','images/modu2_link_ov.jpg','images/modu4_link_ov.jpg','images/modu5_link_ov.jpg','images/modu6_link_ov.jpg','images/modu7_link_ov.jpg','images/modu8_link_ov.jpg','images/modu9_link_ov.jpg','images/modu10_link_ov.jpg','images/modu11_link_ov.jpg','images/modu12_link_ov.jpg','images/modu3_link_ov.jpg');">
+<table width="100%" height="706" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top">
+	
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="107" align="left" valign="top"><img src="images/menu_lft_a.jpg" alt="DHS logo" width="430" height="107" /></td>
+      </tr>
+      <tr>
+        <td height="599" align="left" valign="top"><img src="images/menu_lft_b.jpg" alt="" width="430" height="599" /></td>
+      </tr>
+    </table>
+	
+	
+	
+	</td>
+    <td width="585" valign="top" background="images/mod_3.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0" background="images/menu_bg.jpg" >
+      <tr>
+        <td align="right" valign="bottom" background="images/mod_3.jpg" style="background-repeat:no-repeat;"><table width="100%"  border="0" align="center" cellpadding="0" cellspacing="0" style="font-size:14px">
+
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="524">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="font-size:20">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="font-size:15">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a href="javascript:;" onclick="javascript:showHideLayer('module1');" onmouseover="MM_swapImage('Image2','','images/modu1_link_ov.jpg','module1')" onmouseout="MM_swapImgRestore()"><img src="images/modu1_link.jpg" name="Image2" width="431" height="31" alt="Module 1: Course Introduction" border="0" id="Image2" /></a>
+			<div id='divSideMenu' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module01.jpg" alt="" name="imgSide1" width="350" height="351" border="0" usemap="#Map1" id="imgSide1" />
+            <map name="Map1" id="Map1">
+              <area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module1/lesson1/m1l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide1','','images/Module01a.jpg',1)" onfocus="MM_swapImage_Other('imgSide1','','images/Module01a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 1 Introduction" onmouseout="MM_swapImgRestore()"/>
+            </map>
+          </div>
+			</td>
+          </tr>
+          <tr>
+            <td align="center"><a href="javascript:;" onclick="javascript:showHideLayer('module2');" onmouseover="MM_swapImage('Image3','','images/modu2_link_ov.jpg','module2')" onmouseout="MM_swapImgRestore()"><img src="images/modu2_link.jpg" name="Image3" width="431" height="51" alt="Module 2: Critical Thinking and Intelligence Analysis Overview" border="0" id="Image3" /></a>
+			<div id='divSideMenu2' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module02.jpg" alt="" name="imgSide2" width="350" height="351" border="0" usemap="#Map2" id="imgSide2" />
+            <map name="Map2" id="Map2">
+              <area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module2/lesson1/m2l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide2','','images/Module02a.jpg',1)" onfocus="MM_swapImage_Other('imgSide2','','images/Module02a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 2" onmouseout="MM_swapImgRestore()"/>
+            </map>
+          </div>
+			</td>
+          </tr>
+          <tr>
+            <td align="center"><a href="javascript:;" onclick="javascript:showHideLayer('module3');" onmouseover="MM_swapImage('Image4','','images/modu3_link_ov.jpg','module3')" onmouseout="MM_swapImgRestore()"><img src="images/modu3_link.jpg" alt="Module 3: Who and What are Critical Thinkers?" name="Image4" width="431" height="45" border="0" id="Image4" /></a>
+			<div id='divSideMenu3' style='visibility: hidden;position: absolute; left: 125px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/post_it_30.jpg" alt="" name="imgSide3" width="341" height="348" border="0" usemap="#Map3" id="imgSide3" />
+            <map name="Map3" id="Map3">
+              <area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module3/lesson1/m3l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide3','','images/post_it_32.jpg',1)" onfocus="MM_swapImage_Other('imgSide3','','images/post_it_32.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 3" onmouseout="MM_swapImgRestore()"/>
+            </map>
+          </div>
+			</td>
+          </tr>
+          <tr>
+            <td align="center">
+			<a href="javascript:;" onclick="javascript:showHideLayer('module4');" onmouseover="MM_swapImage('Image5','','images/modu4_link_ov.jpg','module4')" onmouseout="MM_swapImgRestore()"><img src="images/modu4_link.jpg" name="Image5" width="431" height="49" alt="Module 4: Elements of Thought and Universal Intellectual Standards" border="0" id="Image5"/></a>	<div id='divSideMenu4' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module04.jpg" alt="" name="imgSide4" width="350" height="351" border="0" usemap="#Map4" id="Map4" />
+            <map name="Map4" id="Map4">
+              <area shape="poly" coords="125,271,139,254,183,234,208,228,242,223,263,228,260,241,238,257,183,276,138,283,128,280" href="#" onclick="open_edit_window('module4/lesson1/m4l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide4','','images/Module04a.jpg',1)" onfocus="MM_swapImage_Other('imgSide4','','images/Module04a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 4" onmouseout="MM_swapImgRestore()"/>
+            </map>
+          </div>		
+			</td>
+          </tr>
+          <tr>
+            <td align="center">
+			<a href="javascript:;" onclick="javascript:showHideLayer('module5');" onmouseover="MM_swapImage('Image6','','images/modu5_link_ov.jpg','module5')" onmouseout="MM_swapImgRestore()"><img src="images/modu5_link.jpg" name="Image6" width="431" height="32" alt="Module 5: The Process of Critical Thinking" border="0" id="Image6" /></a>
+			<div id='divSideMenu5' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module05.jpg" alt="" name="imgSide5" width="350" height="351" border="0" usemap="#Map5" id="Map5" />
+            <map name="Map5" id="Map5">
+              <area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module5/lesson1/m5l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide5','','images/Module05a.jpg',1)" onfocus="MM_swapImage_Other('imgSide5','','images/Module05a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 5" onmouseout="MM_swapImgRestore()"/>
+            </map>
+          </div>
+		  </td>
+          </tr>
+          <tr>
+            <td align="center">
+			<a href="javascript:;" onclick="javascript:showHideLayer('module6');" onmouseover="MM_swapImage('Image7','','images/modu6_link_ov.jpg','module6')" onmouseout="MM_swapImgRestore()"><img src="images/modu6_link.jpg" name="Image7" width="431" height="51" alt="Module 6: Effects on Critical Thinking: Cognition and Mindsets" border="0" id="Image7" /></a>
+			<div id='divSideMenu6' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module06.jpg" alt="" name="imgSide6" width="350" height="351" border="0" usemap="#Map6" id="Map6" />
+            <map name="Map6" id="Map6">
+              <area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module6/lesson1/m6l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide6','','images/Module06a.jpg',1)" onfocus="MM_swapImage_Other('imgSide6','','images/Module06a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 6" onmouseout="MM_swapImgRestore()"/>
+            </map>
+          </div>
+			</td>
+          </tr>
+          <tr>
+            <td align="center">
+            <a href="javascript:;" onclick="javascript:showHideLayer('module7');" onmouseover="MM_swapImage('Image8','','images/modu7_link_ov.jpg','module7')" onmouseout="MM_swapImgRestore()"><img src="images/modu7_link.jpg" name="Image8" width="431" height="50" border="0" alt="Module 7: Effects on Critical Thinking: Cognition and Perception" id="Image8" /></a>
+			<div id='divSideMenu7' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module07.jpg" alt="" name="imgSide7" width="350" height="351" border="0" usemap="#Map7" id="Map7" />
+            <map name="Map7" id="Map7">
+              <area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module7/lesson1/m7l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide7','','images/Module07a.jpg',1)" onfocus="MM_swapImage_Other('imgSide7','','images/Module07a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 7" onmouseout="MM_swapImgRestore()"/>
+            </map>
+          </div>
+			</td>
+          </tr>
+          <tr>
+            <td align="center">
+            <a href="javascript:;" onclick="javascript:showHideLayer('module8');" onmouseover="MM_swapImage('Image9','','images/modu8_link_ov.jpg','module8')" onmouseout="MM_swapImgRestore()"><img src="images/modu8_link.jpg" name="Image9" width="431" height="50" border="0" alt="Module 8: Cognitive Errors Effects on Critical Thinking: Cognition and Perception" id="Image9" /></a>
+			<div id='divSideMenu8' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module08.jpg" alt="" name="imgSide8" width="350" height="351" border="0" usemap="#Map8" id="Map8" />
+            <map name="Map8" id="Map8">
+              <area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module8/lesson1/m8l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide8','','images/Module08a.jpg',1)" onfocus="MM_swapImage_Other('imgSide8','','images/Module08a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 8" onmouseout="MM_swapImgRestore()"/>
+            </map>
+          </div>
+			</td>
+          </tr>
+          <tr>
+            <td align="center">
+            <a href="javascript:;" onclick="javascript:showHideLayer('module9');" onmouseover="MM_swapImage('Image10','','images/modu9_link_ov.jpg','module9')" onmouseout="MM_swapImgRestore()"><img src="images/modu9_link.jpg" name="Image10" width="431" height="28" border="0" alt="Module 9: Memory and Critical Thinking" id="Image10" /></a>
+			<div id='divSideMenu9' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module09.jpg" alt="" name="imgSide9" width="350" height="351" border="0" usemap="#Map9" id="Map9" />
+		  <map name="Map9" id="Map9">
+			<area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module9/lesson1/m9l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide9','','images/Module09a.jpg',1)" onfocus="MM_swapImage_Other('imgSide9','','images/Module09a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 9" onmouseout="MM_swapImgRestore()"/>
+		  </map>
+	      </div>
+		  </td>
+          </tr>
+          <tr>
+            <td align="center">
+            <a href="javascript:;" onclick="javascript:showHideLayer('module10');" onmouseover="MM_swapImage('Image11','','images/modu10_link_ov.jpg','module10')" onmouseout="MM_swapImgRestore()"><img src="images/modu10_link.jpg" name="Image11" width="431" height="30" border="0" alt="Module 10: Creative Thinking" id="Image11" /></a>
+			<div id='divSideMenu10' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module10.jpg" alt="" name="imgSide10" width="350" height="351" border="0" usemap="#Map10" id="Map10" />
+		 <map name="Map10" id="Map10">
+		 <area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module10/lesson1/m10l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide10','','images/Module10a.jpg',1)" onfocus="MM_swapImage_Other('imgSide10','','images/Module10a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 10" onmouseout="MM_swapImgRestore()"/>
+		 </map>
+         </div>
+		 </td>
+          </tr>
+          <tr>
+            <td align="center">
+            <a href="javascript:;" onclick="javascript:showHideLayer('module11');" onmouseover="MM_swapImage('Image12','','images/modu11_link_ov.jpg','module11')" onmouseout="MM_swapImgRestore()"><img src="images/modu11_link.jpg" name="Image12" width="431" height="29" border="0" alt="Module 11: Analytic Exercise " id="Image12" /></a>
+			<div id='divSideMenu11' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module11.jpg" alt="" name="imgSide11" width="350" height="351" border="0" usemap="#Map11" id="Map11" />
+	<map name="Map11" id="Map11">
+		<area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module11/lesson1/m11l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide11','','images/Module11a.jpg',1)" onfocus="MM_swapImage_Other('imgSide11','','images/Module11a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 11" onmouseout="MM_swapImgRestore()"/>
+	</map>
+</div>
+			</td>
+          </tr>
+          <tr>
+            <td align="center">
+            <a href="javascript:;" onclick="javascript:showHideLayer('module12');" onmouseover="MM_swapImage('Image13','','images/modu12_link_ov.jpg','module12')" onmouseout="MM_swapImgRestore()"><img src="images/modu12_link.jpg" name="Image13" width="431" height="29" border="0" alt="Module 12: Conclusion" id="Image13" /></a>
+			<div id='divSideMenu12' style='visibility: hidden;position: absolute; left: 129px; top: 237px; z-index:1; font-family: Verdana; font-style: normal; color: #A0A0A0;'><img src="images/Module12.jpg" alt="" name="imgSide12" width="350" height="351" border="0" usemap="#Map12" id="Map12" />
+	<map name="Map12" id="Map12">
+		<area shape="poly" coords="124,276,138,259,182,239,207,233,241,228,262,233,259,246,237,262,179,281,137,288,127,285" href="#" onclick="open_edit_window('module12/lesson1/m12l1010.html','REVIEW','1010','806')" onmouseover="MM_swapImage_Other('imgSide12','','images/Module12a.jpg',1)" onfocus="MM_swapImage_Other('imgSide12','','images/Module12a.jpg',1)" onblur="MM_swapImgRestore()" alt="Module 12" onmouseout="MM_swapImgRestore()"/>
+	</map>
+</div>
+			</td>
+          </tr>
+          <tr>
+			<td align="center">
+
+				<a href="#" onclick="javascript:StartAssessment();" onmouseover="MM_swapImage('Image15','','images/post_test_ov.jpg','module13')" onmouseout="MM_swapImgRestore()"><img src="images/post_test.jpg" name="Image15" width="431" height="29" border="0" alt="Post Test" id="Image15" /></a>			</td>
+          </tr>
+        </table>
+
+		  </td>
+        </tr>
+    </table></td>
+    <td width="61" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="41"><img src="images/menu_bg_rtop.jpg" alt="" width="61" height="41" /></td>
+      </tr>
+      <tr>
+        <td><a href="javascript:;" onclick="javascript:fnConfirmExit();" onmouseover="MM_swapImage('Image14','','images/exit_ov.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="images/exit.jpg" alt="Exit Menu" name="Image14" width="61" height="68" border="0" id="Image14" /></a></td>
+      </tr>
+      <tr>
+        <td><img src="images/menu_bg_rht.jpg" alt=""  width="61" height="597" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+
+

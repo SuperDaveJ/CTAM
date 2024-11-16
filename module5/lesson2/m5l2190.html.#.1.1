@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+</style>
+<link href="../../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+
+<script language="javascript" defer="defer">
+
+var mywindow2 = null;
+//for window open 
+
+function open_edit_window( myLocation, myName, myWidth, myHeight) {
+		myWin= open(myLocation, myName ,"width="+myWidth+",height="+myHeight+",location=no,status=no,toolbar=no,menubar=no,scrollbars=auto,top=134,left=505");
+		myWin.focus();		
+}
+function Clicked(e,obj)
+{
+
+    if (e.keyCode == 13) 
+    {
+		if(obj.id=="view"){
+			fnOpenExtLink ('../images/m5l2190c.pdf','htmlWin');
+		}else{
+	        open_edit_window( 'm5l2190d.html', 'myName', '505', '538');
+		}
+    }
+}
+function fnOpenLink(fileObj,fileName)
+{
+	//mywindow2.focus();
+	if(mywindow2 == null ){
+		mywindow2 =  fnOpenExtLink(fileName,fileObj);		
+		//mywindow2.focus();
+		
+	}else if(String(mywindow2) == fileObj)
+	{		
+		mywindow2.close();
+		mywindow2 =  fnOpenExtLink (fileName,fileObj);		
+	}
+	else
+	{
+		mywindow2 =  fnOpenExtLink(fileName,fileObj);
+		//mywindow2.focus();
+	}
+	
+	
+}
+</script>
+
+<script type="text/javascript" src="../../js/Data.js" defer="defer"></script>
+
+<!--SCRIPT END BLOCK-->
+</head>
+<body onLoad="writeTags();" onkeydown="page_Keydown(event,this);">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="16%" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+   <td align="left" valign="top" height="77%"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top" height="100%"><div style="height: 100%; overflow-y: scroll; overflow-x:hidden; border: 0;"><table width="990" border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <td valign="top" tabindex="1"><p><span class="pagetitle" style="font-size:large">Case Study</span><br>
+      <br>
+      Let&rsquo;s try this method out with a scenario where you need to frame the question. Follow the steps below:
+	  <ol>
+	  <li>Review your roles, mission, and assignment listed on the clipboard.</li>
+	  <li>Play the video.</li>
+	  <li>Print out the Brainstorming Worksheet (<a href="#" id="view" onClick="fnOpenLink('htmlWin','../images/m5l2190c.pdf');" onKeyPress="javascript:Clicked(event,this)">view</a>).</li>
+	  <li>Complete the worksheet to frame your question. If you can, assemble some colleagues to help you brainstorm. If you are alone, list as many ideas about the video on the worksheet as you can.</li>
+	  </ol></td>
+    </tr>
+  <tr>
+    <td valign="top" style="padding:0"><table width="100%" border="0" cellspacing="0" cellpadding="12">
+      
+      <tr>
+        <td align="center" valign="top" style="padding-top:0"><img src="../images/m5l2190.jpg" alt="This image consists of a background graphic of a piece of paper on a clipboard, with the following text overlaid:
+Your Role: Intelligence analyst assigned to the Border Security Group 
+Your Mission: Anticipate and evaluate threats to the United States at our borders
+Your Assignment: Develop a white paper on the potential for border crime spillover at our international border with Mexico
+The video appears on the right half of the screen."  width="411" height="318" tabindex="2"/></td>
+        <td align="center" valign="top" style="padding-top:0"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center" valign="top" style="padding-left:10; padding-right:10"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="418" height="220" align="bottom" title="Video file">
+                  <param name="movie" value="../images/m5l2190.swf">
+                  <param name="quality" value="high">
+                  <embed src="../images/m5l2190.swf" width="418" height="220" align="bottom" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
+                </object>&nbsp;<a tabindex="2" href="#" onClick="javascript:open_edit_window( 'm5l2190d.html', 'myName', '505', '538')" onKeyPress="javascript:Clicked(event,this)" >D</a></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center" style="padding-bottom:0"></td>
+      </tr>
+    </table></td>
+  </tr>
+  
+</table>
+        </div>
+</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+<td height="7%" valign="bottom"><div id="divFooter"></div></td>
+  </tr>
+</table>
+</body>
+</html>

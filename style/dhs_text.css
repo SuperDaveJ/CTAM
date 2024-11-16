@@ -1,0 +1,106 @@
+body 
+{
+    font-family: Verdana;
+}
+.coursetitle {
+	font-family: Joanna MT SemiBold, Times New Roman, Times, serif;
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.comment {
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.lessontitle {
+	font-family: Verdana;
+	color: #000000;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 11pt;
+}
+.pagetitle {
+	font-weight: bold;
+}
+.ostext {
+	font-family: Verdana;
+	font-style: normal;
+	}
+.uitext {
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #000000;
+}
+.petext {
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #000000;
+}
+.pe_ui {
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #990000;
+}
+.unclass {
+    color: #ffffff;
+    position: absolute;
+    font-weight: normal;
+    font-size:16pt;
+}
+.tabpopup {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size:12pt;
+}
+.pagetitle_Bg_Image{
+	background-image:url(../images/page_title.jpg);
+	background-repeat:no-repeat;
+	height:43px;
+}
+.pagetitlebg{
+	background-image:url(../images/page_title_bg.jpg);
+	background-repeat:repeat-x;
+}
+.to_bg{
+	background-image:url(../images/top_bg.jpg);
+	background-repeat:repeat;
+	height:114px;
+}
+.Textnormal {
+	font-family: Verdana;
+	font-style: italic;
+	font-size:11pt;
+}
+.mod_title {
+	font-family: Verdana;
+	font-style: italic;
+	font-size:11pt;
+}
+ul {
+	list-style-image:url(../images/bullet.jpg);
+	
+}
+ul ul{
+	list-style-image:url(../images/sub_bullet.jpg);
+	
+	}
+	
+#maincontent{
+	font-family: Joanna MT SemiBold, Times New Roman, Times, serif;
+	font-size: 22px;
+	color: #FFFFFF;
+	
+}
+#maincontent A:hover {
+ BACKGROUND-COLOR: #ffffcc
+  BACKGROUND: url(/images/print_btn_over.jpg)
+}
+#maincontent A:active {
+ BACKGROUND-COLOR: #ffffcc
+  BACKGROUND: url(/images/print_btn_over.jpg)
+}
+#maincontent A:focus {
+ BACKGROUND-COLOR: #ffffcc
+ BACKGROUND: url(/images/print_btn_over.jpg)
+}

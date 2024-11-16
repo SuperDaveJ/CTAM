@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+</style>
+<link href="../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+
+
+
+<script type="text/javascript" src="../js/assessment.js"></script>
+<script language="javascript">
+function startAssessment()
+{
+	location.href = getNextFileName();
+}
+
+function setCookiePath()
+{
+	if( window.opener.API == null )
+	{
+		window.opener.setCookie("assessment/assessment_0_a.html$module13");
+	}
+}
+
+function SendDataToLMS()
+{
+	window.opener.set_location("assessment/assessment_0_a.html$module13");
+}
+
+</script>
+
+
+
+</head>
+<body onLoad="writeTags();setCookiePath();SendDataToLMS();" onkeydown="page_Keydown(event,this);">
+
+<table width="100%"  height="100%" border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="114px" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+    <td align="left" valign="top"><table width="990" height="490" border="0" cellpadding="10" cellspacing="0">
+      <tr>
+        <td valign="top" tabindex="2"><a name="maincontent" id="maincontent"></a><br>This Post Test, consisting of 35 questions, will help evaluate your understanding of the critical thinking and analytic methods you studied in this course. This test, consisting of multiple-choice questions with a single answer, will take you approximately 40 to 60 minutes to complete. These questions will be presented in a random order and you will get one try to answer each question.<br><br>At the end of the test, you will see a list of all the questions that you answered incorrectly and the corresponding module the topic comes from. We strongly suggest that you review the corresponding modules for all questions that you miss in this test.<br><br>To print the course completion certificate, you will have to score at least 80% (equivalent to 28 correct answers) on the test. If you score less than 80%, you will not be able to print the Course Completion Certificate. You can then review the modules and take the Post Test again.<br><br>You must complete the test in one sitting. If you close the test without completing it, you will have to start over.</td>
+      </tr>
+	  <tr>
+	  	<td ><BR><BR><a tabindex="3" href="#" onClick="startAssessment()">Start Post Test</a></td>
+	  </tr>
+    </table></td>
+  </tr>
+  <tr>
+<td valign="bottom"><div id="divFooter"></div></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<Course Name="Critical Thinking And &lt;br&gt; Analytic Methods (CTAM)" ResourcePath="../../resource.html" GlossaryPath="../../glossary.html">
+	<Menus>
+		<Menu Name="MainMenu" Id="AnchorMainMenu">
+			<HtmlTag>img</HtmlTag>
+			<ImagePath>../../images/main_menu_0.jpg</ImagePath>
+			<Width>88</Width>
+			<Height>71</Height>
+			<RollOverImagePath>../../images/main_menu_1.jpg</RollOverImagePath>
+			<ImageName>MainMenu</ImageName>
+			<TabIndex>16</TabIndex>
+			<AltText >Main Menu</AltText>
+		</Menu>
+		<Menu Name="Resources" Id="AnchorResourceMenu">
+			<HtmlTag>img</HtmlTag>
+			<ImagePath>../../images/resources_0.jpg</ImagePath>
+			<Width>94</Width>
+			<Height>71</Height>
+			<RollOverImagePath>../../images/resources_0.jpg</RollOverImagePath>
+			<ImageName>Resources</ImageName>
+			<TabIndex>17</TabIndex>
+			<AltText >Resources Menu</AltText>
+		</Menu>
+		<Menu Name="Audio" Id="AnchorAudioMenu">
+			<HtmlTag>img</HtmlTag>
+			<ImagePath>../../images/audio_0.jpg</ImagePath>
+			<Width>63</Width>
+			<Height>71</Height>
+			<RollOverImagePath>../../images/audio_0.jpg</RollOverImagePath>
+			<ImageName>Audio</ImageName>
+			<TabIndex>18</TabIndex>
+			<AltText >Audio Menu</AltText>
+		</Menu>
+		<Menu Name="CC" Id="AnchorCCMenu">
+			<HtmlTag>img</HtmlTag>
+			<ImagePath>../../images/cc_0.jpg</ImagePath>
+			<Width>60</Width>
+			<Height>71</Height>
+			<RollOverImagePath>../../images/cc_0.jpg</RollOverImagePath>
+			<ImageName>CC</ImageName>
+			<TabIndex>19</TabIndex>
+			<AltText >CC Menu</AltText>
+		</Menu>
+		<Menu Name="Glossary" Id="AnchorGlossaryMenu">
+			<HtmlTag>img</HtmlTag>
+			<ImagePath>../../images/glossary_0.jpg</ImagePath>
+			<Width>83</Width>
+			<Height>71</Height>
+			<RollOverImagePath>../../images/glossary_1.jpg</RollOverImagePath>
+			<ImageName>Glossary</ImageName>
+			<TabIndex>20</TabIndex>
+			<AltText >Glossary Menu</AltText>
+		</Menu>
+		<Menu Name="Help" Id="AnchorHelpMenu">
+			<HtmlTag>img</HtmlTag>
+			<ImagePath>../../images/help_0.jpg</ImagePath>
+			<Width>113</Width>
+			<Height>71</Height>
+			<RollOverImagePath>../../images/help_1.jpg</RollOverImagePath>
+			<ImageName>Help</ImageName>
+			<TabIndex>21</TabIndex>
+			<AltText >Help Menu</AltText>
+		</Menu>
+		<Menu Name="Exit" Id="AnchorExitMenu">
+			<HtmlTag>img</HtmlTag>
+			<ImagePath>../../images/exit_0.jpg</ImagePath>
+			<Width>61</Width>
+			<Height>71</Height>
+			<RollOverImagePath>../../images/exit_1.jpg</RollOverImagePath>
+			<ImageName>Exit</ImageName>
+			<TabIndex>22</TabIndex>
+			<AltText >Exit Menu</AltText>
+		</Menu>
+
+
+	</Menus>
+	<Modules>
+		<Module Name="module11" Id="1" Title="Analytic Exercise">
+			<Lessons>
+				<Lesson Name="lesson2" Id="1" Title="">
+					<Pages>
+						<Page Id="1" Name="m11l1010.html" UserInstructions="" Media="No">
+							<Audio FlashControlId="movie" ></Audio>					
+						</Page>						
+					</Pages>
+				</Lesson>
+			</Lessons>
+		</Module>
+		
+	</Modules>
+</Course>
+
+
+

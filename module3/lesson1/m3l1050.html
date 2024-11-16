@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+</style>
+<link href="../../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+
+
+
+<script type="text/javascript" src="../../JS/Data.js" defer="defer"></script>
+
+<!--SCRIPT END BLOCK-->
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+
+function open_edit_window( myLocation, myName, myWidth, myHeight) {
+		myWin= open(myLocation, myName ,"width="+myWidth+",height="+myHeight+",location=no,status=no,toolbar=no,menubar=no,scrollbars=auto,top=134,left=505");
+		myWin.focus();		
+}
+function Clicked(e)
+{
+    if (e.keyCode == 13) 
+    {
+        open_edit_window( 'Text_video_d.html', 'myName', '505', '538');
+    }
+}
+
+</script>
+</head>
+<body onLoad="writeTags();MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');"; onkeydown="page_Keydown(event,this); MM_CheckFlashVersion('7,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
+<div id="preload" align="center" style="display: none;">
+ <img src="../../images/loading_wh.gif" alt="Loading..." />
+</div>
+<table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="16%" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+    <td align="left" valign="top" height="77%"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top" height="100%"><div style="height: 100%; overflow-y: scroll; overflow-x:hidden; border: 0;"><table width="990" border="0" cellspacing="0" cellpadding="10">
+          <tr>
+            <td valign="top" tabindex="2"><span class="pagetitle" style="font-size:large"><a name="maincontent" id="maincontent"></a>Analysis Without Critical Thinking</span><br />
+                <br />However, if you think analytically and break information down into separate parts, can you really analyze it without using critical thinking?<br />
+                <br />
+                What happens if you don&rsquo;t?<br />
+                <br />
+                Let&rsquo;s look at some examples of some famous situations where there was a failure.
+                <ul>
+                  <li>
+                    <p>Can you think of information we now know that could  have stopped these events from occurring?&nbsp; </p>
+                  </li>
+                  <li>
+                    <p>Could this  information have been uncovered earlier through better critical or analytic thinking?</p>
+                  </li>
+                </ul>
+              </span></td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="12">
+              <tr>
+                <td align="right" valign="top">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="right" valign="top"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="355" height="280" title="Video file" tabindex="3" onfocus = "javascript:document.title='CTAM';">
+                  <param name="movie" value="../images/m3l1050.swf">
+                  <param name="quality" value="high">
+                  <embed src="../images/m3l1050.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="355" height="280"><noembed> Your browser does not support embed tag. </noembed></embed>
+                </object></td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" class="ostext" style="padding-top:0px"></td>
+              </tr>
+            </table></td>
+          </tr>
+          
+  </table>
+        </div></td>
+      </tr>
+    </table></td>
+  </tr><td height="7%" valign="bottom"><div id="divFooter"></div></td>
+  </tr>
+</table>
+</body>
+</html>

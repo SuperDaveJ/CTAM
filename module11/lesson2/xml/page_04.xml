@@ -1,0 +1,112 @@
+<traffic>
+<!-- Following are mail contents, that includes mail text and sender information-->
+<email>
+	<mail>
+		<mail_title>mail 1</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Falfurrias Port of Entry</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) CBP officers reported seizing 4,000 pounds of cheese and two exotic birds at the Falfurrias Port of Entry (POE) on Tuesday. The incident occurred when a Mr. Fred Harrison, driving a white rental truck from Del Rey Rentals, arrived at the Border Patrol checkpoint. Officers smelled an odor from the truck. Consent was obtained to open the rear door of the trailer. Several ice chests containing white cheese and a small bird cage with two parrots were inside. The driver did not have documentation allowing him to transport the cheese or the parrot and admitted to smuggling the birds and the cheese. The illegal cheese, valued at $8,000, was seized along with the two parrots valued at $1,500. CBP turned over the man, vehicle, and cargo to the United States Department of Agriculture for investigation.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 2</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Calexico cargo port</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) CBP officers at the Calexico cargo POE reported arresting a Mexican male, Julio Garcia Vasquez, and seizing 3,915 pounds of marijuana from a tractor-trailer driven by Garcia. Officers found 300 wrapped packages of marijuana valued at about $1.8 million hidden inside boxes of powdered soap loaded in the trailer of the California-plated 1995 Freightliner.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 3</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Tucson Border Patrol Station</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) According to CBP, Jose Salazar, age 39 and Eddie Morales, age 22, both citizens of Mexico with extensive criminal histories, were arrested and taken to the Tucson Border Patrol Station, where processing via IAFIS revealed that Mr. Salazar was convicted of Lewd and Lascivious Acts with a Child less than 14 years of age by Force in California in 1994. He was also convicted of Re-entry of an Aggravated Felon in 2002 after attempting to illegally re-enter the United States. Mr. Morales was found to have been convicted of Murder, Second Degree in New York in 2005.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 4</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>San Diego Coastal Waters</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) According to USCG, two men were arrested after a team of CBP and USCG law enforcement officers found almost 1,100 pounds of marijuana hidden inside the men’s 21-foot powerboat, following a brief chase in San Diego coastal waters. The officers, on coastal patrol in a marked CBP marine interceptor, apprehended the U.S. registered Golden Sea Sprite after observing the vessel and its two occupants entering the U.S. from Mexico waters about eight miles off shore. The USCG law enforcement officers boarded the vessel, took custody of the two men, and found 73 wrapped packages of marijuana hidden under the boat’s stern seats. The officers arrested the two occupants, 20-year old Tony Morales, a U.S. citizen from Pomona, Calif., and 33-year old Francisco Martinez of Tijuana, Mexico, who were turned over to ICE special agents to face narcotics smuggling charges. The vessel and narcotics were seized by CBP.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 5</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Metropolitan Phoenix, Arizona</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) According to CBP, a 41 year old citizen of the United States, Horacio Guzman, was caught driving a vehicle containing 358 pounds of marijuana. Once processed at the Nogales Border Patrol Station, IAFIS revealed that Mr. Guzman had been previously charged with kidnapping a Mexican resident alien in Globe, Arizona, in 2003. When initially questioned he stated his destination was the “...East Coast to try something new.” Mr. Guzman’s pocket litter contained a single phone number (602) 555-1234. 602 is an area code for metropolitan Phoenix, Arizona.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 6</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Los Zetas group</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) According to the JTTF, Mr. Guzman probably has ties with the Gulf Cartel and may serve as an enforcer, a member of the Los Zetas group. It is believed that he may be involved in recruiting juveniles to serve as “Zetitas” (little Zetas); using them in cartel operations.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 7</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Brownsville Border Patrol</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) CBP officers at the Brownsville Border Patrol station reported seizing nearly $1 million in marijuana. The officers observed individuals loading bundles of possible narcotics into an older, blue minivan near the Rio Grande River. Officers tried to arrest the driver, but he left the vehicle and ran back into Mexico by wading across the Rio Grande River. Inside the vehicle, agents found 16 bundles of marijuana weighing 1,245 pounds with a total value of $996,400. A folder with annotated pictures of a man and a woman were found. The man’s name is Sergio Gomez and the woman is Zadya Pena. Border Patrol seized the vehicle and the marijuana was turned over to the DEA. The folder was turned over to the JTTF.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 8</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Lincoln-Juarez Bridge</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) CBP officers at the Lincoln-Juarez Bridge southbound inspections referred a 1995 Chevrolet Blazer being driven by Mr. Juan Ricca, a 38-year-old naturalized U.S. citizen from Tlalchapa, Guerrero, Mexico, to secondary. During the inspection, officers obtained a binding negative declaration for firearms, ammunition, and monetary instruments in excess of $10,000 from the driver. But a search revealed two rifles (Mini-14 target rifles), 1,364 rounds of ammunition, and 10 magazines hidden in the vehicle driven by Ricca. Ricca has an active arrest warrant for immigration violations and was remanded to Webb County Law Enforcement Center to face a re-entry into the U.S. after prior deportation charge. Mr. Ricca currently resides in South Beach, Florida, and works at the Port of Miami.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 9</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Nogales Port of Entry</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) According to CBP, a 20-year old Mexican man was arrested at the Nogales POE after CBP officers discovered four Mexican migrants, including one minor, hidden inside a carpet cleaning van the man was driving. An inspection of the Gray 1990 Chevy van revealed a collection of hoses, buckets, carpet cleaning materials, and a large metal tank. CBP officers found two adult males, an adult female, and a 17-year old female hidden inside the large metal tank. All were identified as citizens of Mexico. The driver, Jose Acosta, of Ensenada, Baja, Mexico, was arrested for the smuggling attempt and transported to the Imperial County jail. The passengers were paroled into U.S. custody as material witnesses and are cooperating with the investigation.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 10</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Nogales Border Patrol Station</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) According to CBP, a male 32-year-old subject from Matamoros, Mexico, Miguel Gonzales, was processed at the Nogales Border Patrol Station, and identified as the principal suspect in a homicide investigation in Brownsville, Texas. The discovery was made using standard criminal record background investigations performed during routine processing. A review of his cell phone contacts revealed a phone number for a Mr. Ricca. The number has a Brownsville area code. He also had a copy of a music magazine with pictures of Mexican musicians circled in black ink. The subject is not cooperating with investigators. He has tattoos consistent with being a Zeta.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 11</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Falfurrias Port of Entry</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) CBP officers reported seizing 17,300 pounds of marijuana hidden in a shipment of cantaloupes and bananas on board a Peterbuilt tractor-trailer entering the Falfurrias POE. A Canine Team alerted on the tractor-trailer and the driver was directed to the secondary inspection area. Agents discovered 538 bundles of marijuana with an approximate value of $14 million inside. The driver, Frankie Lopez, a 36-year-old resident from Mission, Texas, was arrested. The suspect was transferred to the custody of DEA in McAllen, Texas for further investigation. Officers found a photocopy of a hand drawn, detailed map showing border-crossing routes through the back areas of local ranches.</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 12</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Falfurrias, Texas</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) At Falfurrias, Texas, CBP officers reported arrested seven people and seized a smuggling vehicle after the group attempted to enter the US with more than 120 pounds of marijuana. Five Mexican citizens who illegally entered the United States about 5 miles west of port of entry were arrested. Each of the five individuals was carrying a back pack full of marijuana and rope ladders. While apprehending the five subjects, Border Patrol agents spotted a Jeep Cherokee in the area just north of their location. Agents stopped the vehicle and determined that the two U.S. citizen occupants were involved in the smuggling operation. All seven people arrested were juveniles ranging from 12- 17 years old. The Falfurrias Sheriff’s Office responded to the scene and took custody of them, the vehicle, and the marijuana. The total weight of the marijuana was more than 120 pounds worth an estimated $273,000.00. The investigation continues</mail_content>
+	</mail>
+
+	<mail>
+		<mail_title>mail 13</mail_title>
+		<mail_sender>DHS Fusion Center</mail_sender>
+		<mail_subject>Extradition to New Mexico</mail_subject>
+		<mail_content>(UNCLASSIFIED/FOUO) At Falfurrias, Texas, CBP officers arrested a citizen from Mexico entering the United States illegally who was wanted for Aggravated Battery Resulting in Grievous Bodily Harm/Death of or with a Deadly Weapon. The 32-year old Mexican national was taken into custody and entered into the IAFIS where he was identified as wanted. He was subsequently turned over to police for extradition to New Mexico. His carried a cell phone and pocket litter that included a photocopy of a hand drawn, detailed map showing routes through the back areas of local ranches around McAllen, Texas. His cell phone contacts included Mr. Ricca and Jose Salazar</mail_content>
+	</mail>
+
+	
+</email>
+
+<!-- Data for Voice messages goes here-->
+<voice_message>
+
+	<message1>Two Al-Jazeera reporters, Abdul Aalee Mohammed and “Mike” Muzaffar, were stopped for questioning in Lake Charles, Louisiana by the Lake Charles PD. They were photographing oil refining facilities from a local road. They stated they were doing a documentary, showed valid press passes, and continued on with their activities after politely ending the conversation with the officers. Local authorities kept the reporters under observation. After their departure officers found crumpled notes detailing other infrastructure, handwritten on Houston Doubletree Hotel stationary. The information has been turned over to the JTTF.</message1>
+	
+	<message2>According to the JTTF, the two Al-Jazeera reporters, Abdul Aalee Mohammed, 35, and “Mike” Muzaffar, 39, have reservations at the Doubletree hotel in Mission Valley, San Diego. They have not exhibited any further suspicious activity. Mr. Muzaffar is a Lebanese national who resides in Toronto. Mr. Mohammed is Qatari and lives in Lebanon. Both are credentialed investigative reporters and have filed reports from all over the world including from Afghanistan, Pakistan, Iraq, and the United States. The investigation continues.</message2>
+	
+</voice_message>
+
+<!-- Data for Concluding Traffic goes here-->
+<concluding_traffic>
+	<message1>(UNCLASSIFIED/FOUO) According to DEA and ICE, the Gulf cartel is ramping up operations in the Brownsville and Laredo, Texas area. This includes primarily drug operations in combination with cartel enforcement activities.</message1>
+</concluding_traffic>
+
+</traffic>

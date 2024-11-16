@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+</style>
+<link href="../../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+<script type="text/javascript" src="../../js/Data.js" defer="defer"></script>
+
+<script type="text/javascript" >
+
+var mywindow2 = null;
+
+function fnOpenLink(fileObj,fileName)
+{
+	if(mywindow2 == null ){
+				mywindow2 =  fnOpenExtLink(fileName,fileObj);
+		
+		//mywindow2 =  window.open (fileName,fileObj);
+		mywindow2.focus();
+		
+	}else if(String(mywindow2) == fileObj)
+	{		
+		mywindow2.close();
+		//mywindow2 =  window.open (fileName,fileObj);		
+		mywindow2 =  fnOpenExtLink (fileName,fileObj);		
+	}
+	else
+	{
+		//mywindow2 =  window.open (fileName,fileObj);
+		mywindow2 =  fnOpenExtLink(fileName,fileObj);
+	}
+	
+	
+}
+</script>
+
+<!--SCRIPT END BLOCK-->
+</head>
+
+<body onLoad="writeTags();" onkeydown="page_Keydown(event,this);">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="16%" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+    <td align="left" valign="top" height="77%"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top" height="100%"><div style="height: 100%; overflow-y: scroll; overflow-x:hidden; border: 0;"><table width="990" border="0" cellspacing="0" cellpadding="10">
+          <tr>
+            <td valign="top" tabindex="2"><span class="pagetitle" style="font-size:large"><a name="maincontent" id="maincontent"></a>Evidence Examples</span><br />
+                <br /><ul>
+                  <li>When TWA Flight 800 crashed, many people, including a CIA analyst assigned to the case, were convinced that the plane was destroyed by a missile. It took an enormous amount of convincing for them to finally believe that it was an internal plane mechanical malfunction.<br>
+                    <br></li><li>When Pearl Harbor was attacked, people only slowly came to the realization of what was happening. At first, most people believed the attack was simply a drill, and they fit the evidence of the attack into that belief.</li></ul></td>
+             <td valign="top"><table width="100%" border="0" cellpadding="12" cellspacing="0">
+               <tr>
+                 <td>&nbsp;</td>
+               </tr>
+               <tr>
+                 <td valign="top" style="padding-left:10; padding-right:10"><img src="../../module7/images/m7l1170.jpg" alt="Montage showing TWA 800 flight and aerial photo of Pearl Harbor attack."  width="411" height="400" tabindex="3"/></td>
+               </tr>
+             </table></td></tr>
+          
+        </table>
+        </div></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+<td height="7%" valign="bottom"><div id="divFooter"></div>
+	</td>
+  </tr>
+</table>
+</body>
+</html>

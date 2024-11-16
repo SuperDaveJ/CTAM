@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+</style>
+<link href="../../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+
+
+
+<script type="text/javascript" src="../../JS/Data.js" defer="defer"></script>
+
+<!--SCRIPT END BLOCK-->
+<script language="javascript">
+var mywindow2 = null;
+
+function fnOpenLink(fileObj,fileName)
+{
+	if(mywindow2 == null )
+	{
+			mywindow2 =  fnOpenExtLink(fileName,fileObj);
+			//mywindow2.focus();
+		
+	}
+	else if(String(mywindow2) == fileObj)
+	{		
+		mywindow2.close();		
+		mywindow2 =  fnOpenExtLink (fileName,fileObj);		
+	}
+	else
+	{	
+		mywindow2 =  fnOpenExtLink(fileName,fileObj);	
+	}
+	
+	
+}
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #0000FF}
+-->
+</style>
+</head>
+<body onLoad="writeTags();" onkeydown="page_Keydown(event,this);">
+
+<table width="100%"  height="100%" border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="16%" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+    <td align="left" valign="top" height="77%"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top" height="100%"><div style="height: 100%; overflow-y: scroll; overflow-x:hidden; border: 0;"><table width="990" border="0" cellspacing="0" cellpadding="10">
+          <tr>
+            <td rowspan="2" valign="top" tabindex="2"><span class="pagetitle" style="font-size:large"><a name="maincontent" id="maincontent"></a>Selectable Text</span><br /><br />
+			<span class="ostext">
+			Some screens contain text you can select to learn more information. For example, highlighted blue text on a screen will lead to selected documents or further information for the information presented.
+			<ul>
+				<li>Consolidated Lexicon of Terms for Intelligence Learning (<a tabindex="3" href="#" onClick="fnOpenLink('htmlWin','../images/m1l1040.pdf')">view</a>)</li>
+			</ul>
+			</span></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="12">
+                <tr>                  
+                </tr>
+            </table></td>
+          </tr>
+        </table></div></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+<td height="7%" valign="bottom"><div id="divFooter"></div></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+</style>
+<link href="../../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+<script type="text/javascript" src="../../js/Data.js" defer="defer"></script>
+
+<!--SCRIPT END BLOCK-->
+<script language="javascript">
+
+function open_edit_window( myLocation, myName, myWidth, myHeight) {
+		myWin= open(myLocation, myName ,"width="+myWidth+",height="+myHeight+",location=no,status=yes,toolbar=no,menubar=no,scrollbars=auto,top=0,left=0");
+		myWin.focus();		
+}
+
+function Clicked(e, obj)
+{
+    if (e.keyCode == 13) 
+    {
+		if(obj.id=="view")
+		{
+			open_edit_window( 'm9l3060_pop-up.html', 'myName', '505', '538');
+		}
+		else
+		{
+			open_edit_window( 'm9l3060d.html', 'myName', '505', '538');
+		}
+    }
+}
+
+</script>
+
+</head>
+
+<body onLoad="writeTags();" onkeydown="page_Keydown(event,this);">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="16%" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+   <td align="left" valign="top" height="77%"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top" height="100%"><div style="height: 100%; overflow-y: scroll; overflow-x:hidden; border: 0;"><table width="990" border="0" cellspacing="0" cellpadding="10">
+          <tr>
+            <td valign="top" tabindex="2"><span class="pagetitle" style="font-size:large"><a name="maincontent" id="maincontent"></a>Step 1: Identify the Hypotheses</span><br />
+                <br />
+                The first step is to identify your hypotheses. You learned how to do this in a previous lesson. When you first developed your hypotheses, you should have developed more than one. <br>
+                <br>
+                Let&rsquo;s review a case study (<a tabindex="4" href="#" id="view" onClick="javascript:open_edit_window( 'm9l3060_pop-up.html', 'myName', '505', '538')" onKeyPress="javascript:Clicked(event,this)">view</a>) and use it to identify competing hypotheses. After you&rsquo;re done reading the case study, can you identify some hypotheses and potential activities expected for each hypothesis? </td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="12">
+              <tr>
+                <td align="right" valign="top">&nbsp;</td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+              <tr><td align="center" valign="bottom" style="padding-bottom:0"><span style="padding-left:10; padding-right:10"><img src="../images/M9L3060.jpg" alt="Image of a newspaper article with the following text as the heading of the article: &ldquo;Police Officers Killed in Roadside Bomb Explosion in Grozny.&rdquo;"  width="411" height="400" tabindex="3"/></span></td>
+              </tr>
+            </table></td>
+          </tr>
+          
+        </table>
+        </div></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr><td height="7%" valign="bottom"><div id="divFooter"></div></td>
+  </tr>
+</table>
+</body>
+</html>

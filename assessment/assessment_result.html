@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+
+.border {  border-style: solid  ; border-width:1px ;}
+
+</style>
+<link href="../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+
+
+
+<script type="text/javascript" src="../js/assessment.js"></script>
+<script language="javascript">
+
+var tempScore1=Math.round(window.opener.currentPercentScore);
+//FOR lms
+window.opener.fnAssessment_status (tempScore1);
+this.focus();
+var certificate_name = window.opener.user_name; 
+var CorrectNameAray = certificate_name.split(",");
+
+var resultAPI = window.opener.API;
+
+certificate_name = CorrectNameAray[1]+" "+CorrectNameAray[0];
+
+function displayResult()
+{
+		var tempScore =Math.round(window.opener.currentPercentScore);
+		var tempDisplay ="";
+		if(tempScore >=80)
+		{
+		tempDisplay = "Congratulations! You have passed the Post Test. You correctly answered ";
+		tempDisplay += window.opener.currentScore;
+		tempDisplay += " out of 35 questions, and your score is ";
+		tempDisplay += Math.round(window.opener.currentPercentScore);
+		tempDisplay += "%. Select the button below to print your Course Completion Certificate.";
+		tempDisplay += "<form id ='form1' align = 'center' name='form1'><div align='center' width = '100%'>User name: ";
+		
+		if( window.opener.API != null )
+		{
+			
+			//online
+			tempDisplay += certificate_name;			
+		}
+		else
+		{
+		//offline
+		tempDisplay += "<input  type='text' name='firstname' onkeypress=\"return noenter();\" class = 'border' value ='Type Name Here'/>";
+
+		}
+		
+
+		tempDisplay += "</div></form> ";
+		tempDisplay +="<div align='center'><a href='#' onclick=\"open_Certificate_window('Cerificate','810','506');\"><img BORDER=0 src='../images/print_btn.jpg' alt='Print Certificate'></img></a></div>";
+		tempDisplay += "Listed below are the questions you answered incorrectly,  along with the modules related to the topic. We strongly encourage you to  review any modules for which you have missed questions."
+		}
+		else{
+			tempDisplay = "You correctly answered "+window.opener.currentScore +" out of 35 questions, and your score is "+Math.round(window.opener.currentPercentScore)+"%. You will have to score at least 80% (equivalent to 28 correct answers) on the test to be able to print the Course Completion Certificate. <br><br>";
+		tempDisplay += "Listed below are the questions you answered incorrectly, along with the modules related to the topic. We strongly encourage you to review the modules for which you have missed questions, and then retake the Post Test."
+		}
+
+		document.getElementById("ResultDisplay").innerHTML = tempDisplay;
+
+	generateQuestionRemediation();
+}
+
+function noenter() {
+  return !(window.event && window.event.keyCode == 13); 
+ }
+
+function generateQuestionRemediation()
+{
+	var QuestionRemediationTable_Array = [];
+
+	var Wrong_Answer_Array=window.opener.Wrong_Answer_Array;
+
+	for(i=0;i<window.opener.InCorrectAnswer_Array.length;i++)
+	{
+		var InCorrectAnswer_Array = window.opener.InCorrectAnswer_Array[i].split("$");
+		//alert(InCorrectAnswer_Array);
+		if(InCorrectAnswer_Array[1] == "a")
+		{
+			var tempA = window.opener.QuestionRemediationA[InCorrectAnswer_Array[0]-1];
+			QuestionRemediationTable_Array[QuestionRemediationTable_Array.length] = tempA;
+		}
+		else
+		{
+			var tempB = window.opener.QuestionRemediationB[InCorrectAnswer_Array[0]-1];
+			QuestionRemediationTable_Array[QuestionRemediationTable_Array.length] = tempB;
+		}
+	}
+
+	//alert(QuestionRemediationTable_Array);
+
+	var htmlWriter = "<table width='100%' border='1' bordercolor='#cccccc' align='center' cellpadding='10' cellspacing='0'>";
+
+	for(i=0;i<QuestionRemediationTable_Array.length;i++)
+	{
+			var tempData = QuestionRemediationTable_Array[i].split("$");
+			htmlWriter += "<tr align='left'><td width='640'>Question "+(Wrong_Answer_Array[i]+1)+": "+tempData[1]+"</td><td width='150'>"+tempData[0]+"</td></tr>";
+	}
+
+	htmlWriter += "</table>";
+	document.getElementById("AnswerTable").innerHTML = htmlWriter;
+}
+function set_moduleComletion()
+{
+	//var modComplete= window.opener.ModuleCompleted;
+	window.opener.ModuleCompleted = "module13";
+	setCookiePath();
+}
+
+function setCookiePath()
+{
+	if( window.opener.API == null )
+	{
+		window.opener.setCookie("assessment/assessment_0_a.html$module13");
+	}
+}
+
+function SendDataToLMS()
+{
+	window.opener.set_location("assessment/assessment_0_a.html$module13");
+}
+
+</script>
+</head>
+<body onLoad="writeTags(); displayResult();set_moduleComletion();SendDataToLMS();"  onkeydown="page_Keydown(event,this);">
+
+<table width="100%"  height="100%" border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="114px" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+    <td align="center" valign="top" style="padding-top:10"><table width="787" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="../images/top_result.jpg" alt="" width="887" height="98" /></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" width="787" background="../images/middle_result_repeat.jpg"><table width="95%" height="100%" border="0" cellpadding="10" cellspacing="0">
+          <tr>
+            <td colspan="3" align="left" width="100%" valign="top" style="padding-left:30; padding-right:30" tabindex="2">
+<a name="maincontent" id="maincontent"></a><div id="ResultDisplay"></div></td>
+          </tr>
+		  <tr><td  height="30" valign="top" style="padding-left:30; padding-right:30; padding-bottom:0; padding-top:0"><div style="height: 30px; width:790px; position:absolute; border: 2; border-color:#000000; background-color: #EEEEEE; layer-background-color: #EEEEEE;">
+		    <table width="100%" height="32" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#cccccc">
+		      <tr tabindex="3"><td width="620" align="center" valign="middle" ><strong>Question</strong></td>
+		    <td width="170" align="left" valign="middle" style="padding-left:10" ><strong>Remediation</strong></td>
+		    </tr></table>
+		  </div></td>
+		  </tr>
+          <tr>
+            <td  height="160" valign="top" style="padding-left:30; padding-right:30; padding-top:0"><div id="AnswerTable" align="top" style="height: 140px; width:790px; overflow-y: scroll; position:absolute; overflow-x:hidden; border: 2; border-color:#000000; background-color: #EEEEEE; layer-background-color: #EEEEEE;" tabindex="3"></div></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="../images/bottom_result.jpg"  alt="" width="887" height="79" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+<td valign="bottom"><div id="divFooter"></div></td>
+  </tr>
+</table>
+</body>
+</html>

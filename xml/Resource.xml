@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<references>
+	<reference name="Common Intelligence Glossary" file="resources/Common Intelligence Glossary.pdf" description="Common Intelligence Glossary" />
+	<reference name="Consolidated Lexicon of Terms for Intelligence Learning" file="resources/Consolidated Lexicon of Terms for Intelligence Learning.pdf" description="Consolidated Lexicon of Terms for Intelligence Learning" />
+	<reference name="Critical Thinking and Intelligence Websites" file="resources/Critical Thinking and Intelligence Websites.pdf" description="Critical Thinking and Intelligence Websites" />
+	<reference name="DHS Lexicon" file="resources/DHS Lexicon.pdf" description="DHS Lexicon" />
+	<reference name="DHS National Strategic Plan" file="resources/DHS National Strategic Plan.pdf" description="DHS National Strategic Plan" />
+	<reference name="Domestic Terrorist Group Web Sites" file="resources/Domestic Terrorist Group Web Sites.pdf" description="Domestic Terrorist Group Web Sites" />
+	<reference name="Exercise Question Table" file="resources/Exercise Question Table.pdf" description="Exercise Question Table" />
+	<reference name="HSRA - Domestic Extremism Lexicon dated 26 March 2009" file="resources/HSRA - Domestic Extremism Lexicon dated 26 March 2009.pdf" description="HSRA - Domestic Extremism Lexicon dated 26 March 2009" />
+	<reference name="Indicators of Change Check Worksheet" file="resources/Indicators of Change Check Worksheet.pdf" description="Indicators of Change Check Worksheet" />
+	<reference name="Practice Exercise Analysis of Competing Hypothesis Matrix and Worksheet" file="resources/Practice Exercise Analysis of Competing Hypothesis Matrix and Worksheet.pdf" description="Practice Exercise Analysis of Competing Hypothesis Matrix and Worksheet" />
+	<reference name="Practice Exercise Brainstorming Worksheet" file="resources/Practice Exercise Brainstorming Worksheet.pdf" description="Practice Exercise Brainstorming Worksheet" />
+	<reference name="Practice Exercise Briefing Worksheet" file="resources/Practice Exercise Briefing Worksheet.pdf" description="Practice Exercise Briefing Worksheet" />
+	<reference name="Practice Exercise Devils Advocacy Analytic Method Worksheet" file="resources/Practice Exercise Devils Advocacy Analytic Method Worksheet.pdf" description="Practice Exercise Devils Advocacy Analytic Method Worksheet" />
+	<reference name="Practice Exercise Key Assumptions Check Worksheet" file="resources/Practice Exercise Key Assumptions Check Worksheet.pdf" description="Practice Exercise Key Assumptions Check Worksheet" />
+	<reference name="Practice Exercise Red Teaming Analytic Method Job Aid" file="resources/Practice Exercise Red Teaming Analytic Method Job Aid.pdf" description="Practice Exercise Red Teaming Analytic Method Job Aid" />
+	<reference name="Practice Exercise Threat Stream Worksheet" file="resources/Practice Exercise Threat Stream Worksheet.pdf" description="Practice Exercise Threat Stream Worksheet.pdf" />
+
+	<reference name="http://www.dhs.gov/ximgtn/statistics/stdfdef.shtm" file="http://www.dhs.gov/ximgtn/statistics/stdfdef.shtm#0" description="http://www.dhs.gov/ximgtn/statistics/stdfdef.shtm" />
+
+	<reference name="http://www.fas.org/news/reference/lexicon/mildef.htm" file="http://www.fas.org/news/reference/lexicon/mildef.htm" description="http://www.fas.org/news/reference/lexicon/mildef.htm" />
+
+</references>

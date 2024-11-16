@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<glossary>
+    <term name="Activation (message)" desc="Message providing notice of intended potential reaction" id="1" />
+	<term name="Advisory (message)" desc="Message highlighting trends, developments, or situations that may threaten life and/or property" id="2" />
+	<term name="Alert (message)" desc="Message directing activity in preparation of a response to an actual or probable situation that may require response operations to protect life, health, and property" id="3" />
+	<term name="Alien Removed" desc="Compulsory and confirmed movement of an inadmissible or deportable alien out of the United States based on an order of removal" id="4" />
+	<term name="Alien Returned" desc="Confirmed movement of an inadmissible or deportable alien out of the United States not based on an order of removal" id="5" />
+	<term name="All Hazards" desc="Grouping classification encompassing all conditions, environmental or man-made, that have the potential to cause injury, illness, or death; damage to or loss of equipment, infrastructure services, or property; or alternately causing functional degradation to societal, economic or environmental aspects" id="6" />
+	<term name="Apprehend" desc="To take physical control or temporarily detain a person suspected of wrongdoing or posing a potential threat to National security without actual arrest" id="7" />
+	<term name="Arrest" desc="Act of detaining an individual by legal authority based on an alleged violation of the law" id="8" />
+	<term name="Assessment (message)" desc="Message supplying the evaluation and interpretation of measurements and other information to provide a basis for decision-making" id="9" />
+	<term name="Asset" desc="Tangible or intangible items owned or employed by the Federal government which would have probable economic benefits that can be obtained or controlled by the Federal government entity in support of its mission and the continuity of its operation" id="10" />
+	<term name="Asylee" desc="Individual granted asylum under section 208 of the Immigration and Nationality Act" id="11" />
+	<term name="Asylum" desc="Form of protection provided to aliens physically present in the United States who meet the definition of refugee and are not otherwise barred from applying for or receiving asylum" id="12" />
+	<term name="Bilateral" desc="Affecting or undertaken reciprocally between two nations or parties" id="13" />
+	<term name="Biological" desc="Relating to life, living organisms, or the materials derived from them" id="14" />
+	<term name="Bioterrorism" desc="Use of, or threatened use of, biological agents, such as manmade or natural disease pathogens, for terrorist purposes" id="15" />
+	<term name="Cancellation (message)" desc="Message revoking a previously transmitted message" id="16" />
+	<term name="Canine Inspection" desc="Use of a dog team to detect specific substances or the presence of property or persons that may pose a threat, are not in compliance with laws, or are at risk" id="17" />
+	<term name="Cargo Scanning" desc="Use of nonintrusive equipment, including imaging and radiation detection equipment, to capture data relative to any form of cargo container and/or container contents" id="18" />
+	<term name="Civil Support" desc="(SEE &#8211; Defense Support of Civil Authorities)" id="19" />
+	<term name="Component" desc="(SEE &#8211; DHS Component)" id="20" />
+	<term name="Confidential informants (U/LES)" desc="May be authorized to engage in illegal activities under the direction and control of ICE special agents and have a reasonable expectation of confidentiality and anonymity. As a result, their true identities are protected and any information provided by a confidential informant is documented under a number assigned by the controlling agents." id="21" />
+	<term name="Continuity" desc="State or quality of being consistent, uninterrupted, or unbroken" id="22" />
+	<term name="Country" desc="Territory of a nation or state" id="23" />
+	<term name="Country of Birth" desc="Country in which a person is born" id="24" />
+	<term name="Country of Chargeability" desc="Country to which an immigrant in a numerically limited classification is charged by the U.S. Department of State for purposes of numerical control" id="25" />
+	<term name="Country of Citizenship" desc="Country to which a person owes allegiance and by which he or she is entitled to be protected" id="26" />
+	<term name="Country of Former Allegiance" desc="Previous country of citizenship of a naturalized U.S. citizen" id="27" />
+	<term name="Country of Last Permanent Residence" desc="(SEE &#8211; Country of Last Residence)" id="28" />
+	<term name="Country of Last Residence" desc="Country in which an alien habitually resided prior to crossing the U.S. border and entering the United States" id="29" />
+	<term name="Country Where You Live" desc="Country in which an alien resides or intends to reside" id="30" />
+	<term name="Critical Infrastructure" desc="Systems and assets, whether physical or virtual, so vital that the incapacity or destruction of such may have a debilitating impact on the security, economy, public health or safety, environment, or any combination of those matters, across any Federal, State, regional, territorial, or local jurisdiction" id="31" />
+	<term name="Cyberspace" desc="Virtual environment, accessible via computer networks, where communication can take place and information can be shared" id="32" />
+	<term name="Data Mining" desc="Application of database technology and techniques to uncover hidden patterns and subtle relationships in data and to infer rules that allow for the prediction of future results (Source: GAO-05-866, p. 4)" id="33" />
+	<term name="Data Screening" desc="Visual or automated review of data to detect anomalies" id="34" />
+	<term name="Defense Support of Civil Authorities" desc="Civil support activities provided by U.S. military forces, Department of Defense (DOD) civilians, DOD contract personnel, and DOD agency and component assets, in response to requests for assistance from civilian Federal, State, local, and tribal authorities under the auspices of the national response framework (for domestic emergencies)" id="35" />
+	<term name="Detection Technology" desc="Electronic and/or mechanical means used to assist in the discovery and identification of anomalies or the presence of property or person that may pose a threat or are not in compliance with law" id="36" />
+	<term name="DHS Component" desc="Any organizations which reports directly to the Office of the Secretary (including the Secretary, the Deputy Secretary, the Chief of Staff, the Counselors, and their respective staff) when approved as such by the Secretary" id="37" />
+	<term name="DHS Directive System" desc="Official means of communicating to DHS employees the policies, delegations of authority and procedures necessary for DHS to comply with pertinent Executive Orders, statutes, regulations, and policies" id="38" />
+	<term name="DHS Liaison for Volunteer Community Service" desc="DHS officer or employee designated by the Secretary of DHS pursuant to E.O. 13401 to serve as the agency liaison for volunteer community service" id="39" />
+	<term name="DHS Screening and Inspection Process" desc="Department of Homeland Security comprehensive process used to detect and assess whether persons or property pose a threat or are not in compliance with law" id="40" />
+	<term name="Directive" desc="Statement of a policy, mission, program, or activity's purpose, scope, and authority, establishes and delegates responsibilities, and set forth policies and procedures" id="41" />
+	<term name="Doctrine" desc="Authoritative statement of one or more guiding principles" id="42" />
+	<term name="Domestic Counterterrorism" desc="Measures, offensive and defensive, for the prevention and interdiction of terrorist activity within the United States" id="43" />
+	<term name="Emergency Management" desc="Coordination and integration of all activities necessary to build, sustain and improve the capabilities to prepare for, respond to, recover from, or mitigate against threatened or actual disasters or emergencies, regardless of cause" id="44" />
+	<term name="Evacuation" desc="Organized and supervised withdrawal, dispersal, or removal of civilians from hazardous or potentially hazardous areas, and their reception and care in designated safe areas" id="45" />
+	<term name="Evacuee" desc="Individual subject to an organized and supervised withdrawal, dispersal, or removal from a hazardous or potentially hazardous area" id="46" />
+	<term name="Event" desc="Planned, non-emergency activity occurring in a particular place during a particular interval of time" id="47" />
+	<term name="Examine" desc="Process of performing direct, indirect, and/or informational investigation and inspection of a person, place, thing, or event to determine compliance or deviation" id="48" />
+	<term name="First Responder" desc="Designation for a person who, in the course of their professional duties of responding to emergencies, and in the early stages of an incident, is responsible for the protection and preservation of life, property, evidence, the environment, and for meeting basic human needs" id="49" />
+	<term name="Fusion Center" desc="Physical or logical facility, encompassing all necessary infrastructure required to facilitate nationwide information-sharing between one or more Federal, State, and/or local law enforcement entities, dedicated to the integration of multiple diverse data sources within a defined functional domain" id="50" />
+	<term name="Global Terrorism" desc="Terrorism activities conducted in, or encompassing international communities " id="51" />
+	<term name="Homeland (United States)" desc="Physical region that includes the continental United States, Alaska, Hawaii, United States territories and possessions, and surrounding territorial waters and airspace" id="52" />
+	<term name="Homeland Defense" desc="Protection of United States sovereignty, territory, domestic population, and critical defense infrastructure against external threats and aggression or other threats as directed by the President of the United States" id="53" />
+	<term name="Homeland Security" desc="Concerted national effort to prevent terrorist attacks within the United States, reduce America's vulnerability to terrorism, and minimize the damage and recover from attacks that do occur" id="54" />
+	<term name="Implementing Document" desc="Supplemental information that provide guidance, technical or programmatic in nature, which assist in implementing Policy Statements, Directives, and Instructions" id="55" />
+	<term name="Improvised Explosive Device (IED)" desc="Improvised Explosive Device (IED) is a 'homemade' device that is designed to cause death or injury by using explosives alone or in combination with toxic chemicals, biological toxins, or radiological material. IEDs can be produced in varying sizes, functioning methods, containers, and delivery methods. IEDs can utilize commercial or military explosives, homemade explosives, or military ordnance and ordnance components." id="56" />
+	<term name="Incident" desc="Occurrence, caused by either human action or natural phenomena, that requires action to prevent or minimize loss of life or damage to property and/or natural resources" id="57" />
+	<term name="Incident Management" desc="Management and coordination of prevention, protection, and emergency management activities associated with a specific threat, or an actual occurrence" id="58" />
+	<term name="Information Requirement" desc="Specific data and processing specifications needed to complete a process" id="59" />
+	<term name="Information Sharing" desc="Exchange between entities or individuals of data, information or knowledge stored within discrete information systems or created spontaneously using collaborative communication technologies" id="60" />
+	<term name="Information System" desc="Discrete set of defined procedures and information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information" id="61" />
+	<term name="Information Technology" desc="Equipment or interconnected system or subsystem of equipment, used in the automatic acquisition, storage, manipulation, management, movement, control, display, switching, interchange, transmission, or reception of data or information" id="62" />
+	<term name="Inspect" desc="Critical examination and appraisal of a person, place or thing" id="63" />
+	<term name="Instruction" desc="Uniform procedures and/or prescription of the manner or a specific plan or action for carrying out the policy, operating a program or activity, and assigning responsibilities" id="64" />
+	<term name="Insular Area" desc="Commonwealth, freely associated state, possession or territory controlled by the United States government that is neither a part of one of the fifty states nor a part of the District of Columbia" id="65" />
+	<term name="Intelligence Community" desc="Certain designated Federal government agencies, services, bureaus, or other organizations that play a role in the gathering or use of national intelligence" id="66" />
+	<term name="Interdependency" desc="Mutually reliant relationship between entities (objects, individuals, or groups)" id="67" />
+	<term name="Interoperability" desc="Ability of systems, personnel, and equipment to provide and receive functionality, data, information and/or services to and from other systems, personnel, and equipment, between both public and private agencies, departments, and other organizations, in a manner enabling them to operate effectively together" id="68" />
+	<term name="Intervention" desc="Immediate action taken to confront, resolve or reduce impact by way of hindrance or modification" id="69" />
+	<term name="Key Resource" desc="Publicly or privately controlled asset necessary for the continuity of minimal government or economic operations or an asset that is of great historical significance to the Nation" id="70" />
+	<term name="Law Enforcement" desc="Activity directed toward the preservation of public order and safety, including protection of persons and property (real and other) in accordance with a statutory authority" id="71" />
+	<term name="Local Government" desc="Public entities responsible for the security and welfare of a designated area as established by law" id="72" />
+	<term name="Major Disaster" desc="Natural catastrophe (including any hurricane, tornado, storm, high water, wind-driven water, tidal wave, tsunami, earthquake, volcanic eruption, landslide, mudslide, snowstorm, or drought) or, regardless of cause, any fire, flood, or explosion, in any part of the United States, which in the determination of the President causes damage of sufficient severity and magnitude to warrant major disaster assistance under the Robert T. Stafford Act to supplement the efforts and available resources of States, local governments, and disaster relief organizations in alleviating the damage, loss, hardship, or suffering caused thereby" id="73" />
+	<term name="Major Event" desc="Planned, non-emergency activity that draws national attention" id="74" />
+	<term name="Major Hazard" desc="Natural or human-induced phenomenon that has the potential for significant and substantial harm to human health, property, activity, and/or animals or the environment" id="75" />
+	<term name="Man-made Disaster" desc="Human-caused incident resulting in severe property damage, deaths, and/or multiple injuries" id="76" />
+	<term name="Memo" desc="Message providing an abbreviated level of information" id="77" />
+	<term name="Mitigation" desc="Ongoing and sustained action to reduce the probability of, or lessen the impact of an adverse incident" id="78" />
+	<term name="Multilateral" desc="Involving more than two distinct entities" id="79" />
+	<term name="National Security" desc="Comprehensive program of integrated policies and procedures for the Departments, agencies, and functions of the United States Government aimed at protecting the territory, population, infrastructure, institutions, values, and global interests of the Nation" id="80" />
+	<term name="Notification (message)" desc="Message apprising an entity or individual of incident, event or threat information and generally notifies recipients of an emergency situation" id="81" />
+	<term name="Physical Inspection" desc="Manual examination or search, with or without assisting detection technologies, to resolve anomalies, to confirm adherence to standards or compliance with laws, or to detect threats" id="82" />
+	<term name="Policy" desc="Directive body of rules intended to influence decisions and actions" id="83" />
+	<term name="Policy Statement" desc="Declaration setting forth particulars that address the overarching objective of a entity's major initiative or program" id="84" />
+	<term name="Preparedness" desc="Activities necessary to build, sustain, and improve readiness capabilities to prevent, protect against, respond to, and recover from natural or man-made incidents" id="85" />
+	<term name="President's Volunteer Service Award" desc="Program to thank and honor Americans who, by their demonstrated commitment and example, inspire others to engage in volunteer service" id="86" />
+	<term name="Prevention" desc="Actions taken and measures put in place for the continual assessment and readiness of necessary actions to reduce risk of threats and vulnerabilities, to intervene and stop an occurrence, or to mitigate effects" id="87" />
+	<term name="Private Sector" desc="Individuals, and entities, including for-profit and non-profit, which are not part of any government" id="88" />
+	<term name="Protection" desc="Actions or measures taken to cover or shield from exposure, injury, or destruction" id="89" />
+	<term name="Protective Action" desc="Step taken before, during, or after an incident designed to prevent, minimize, or contain impact of incident" id="90" />
+	<term name="Quarantine" desc="Prohibition or restriction on travel or passage, imposed to keep contagious diseases, or harmful chemicals/biologicals from spreading" id="91" />
+	<term name="Radicalization" desc="Process of adopting an extremist belief system" id="92" />
+	<term name="Radiological" desc="Emitting radiant energy in the form of particles or rays, as alpha, beta, and gamma rays, by the spontaneous disintegration of atomic nuclei" id="93" />
+	<term name="Radiological Dispersal Device (RDD)" desc="Radiological Dispersal Device (RDD) is an unconventional device used to deliberately disperse radioactive material to create terror or harm. A dirty bomb is an example of an RDD. It is made by packaging explosives (like dynamite) with radioactive material to be dispersed when the bomb goes off." id="94" />
+	<term name="Readiness" desc="Condition of being prepared and capable to act or respond as required" id="95" />
+	<term name="Refugee" desc="Status granted to an individual prior to departure for and arrival in the United States that has been determined by competent authority to be fleeing persecution or have a well-founded fear of persecution in their own country because of race, religion, nationality, membership in a particular social group or political opinion" id="96" />
+	<term name="Regionalism" desc="Principle or system of defining a geographic area consisting of all or parts of 2 or more contiguous countries, States, counties, municipalities, or other local governmental jurisdictions or tribal entities for pooled resources or mutual-aid agreements; is also common within the collaboration of private-sector operations" id="97" />
+	<term name="Resilience" desc="Ability to recover from, or adjust to, adversity or change" id="98" />
+	<term name="RFI (Request for Information) " desc="Used when requesting additional information about a subject from other agencies, staff or persons." id="99" />
+	<term name="Risk Management" desc="Process of measuring or assessing the vulnerability to hazards, threats, or dangers, and subsequent development of strategies to minimize the overall levels of each" id="100" />
+	<term name="Screening" desc="Systematic examination or assessment, done especially to detect a potential threat or risk or any particular substance, attribute, person, or undesirable material" id="101" />
+	<term name="Secure" desc="To gain possession of and/or to ensure protection from unauthorized use, harm, loss or risk" id="102" />
+	<term name="Seizure" desc="Taking physical possession and/or control of property, merchandise or other articles from the possession or control of an individual or establishment" id="103" />
+	<term name="Shelter-in-Place" desc="Taking emergency refuge within the nearest designated safe area until notification or determination that the situation has been resolved" id="104" />
+	<term name="Sources of Information (U/LES)" desc="Sources of information merely provide information related to criminal activity and are not under the direction and control of ICE special agents. Accordingly, sources of information are not instructed to actively engage in criminal activity and may or may not have a reasonable expectation of anonymity." id="105" />
+	<term name="Strategy" desc="Statement for a course of action or actions to be taken in order to achieve objective(s)" id="106" />
+	<term name="Surveillance" desc="Systematic observation or monitoring of areas, places, persons, or things" id="107" />
+	<term name="Sustain" desc="To support, supply, and maintain the necessary level and duration of activity to achieve a given objective" id="108" />
+	<term name="System" desc="Combination of facilities, equipment, personnel, procedures, and communications integrated into a common organizational structure to achieve a single mission or outcome" id="109" />
+	<term name="Targeting" desc="Process of establishing various parameters to identify particular types of products, individuals, groups of people, or other entities for a specific purpose" id="110" />
+	<term name="Technology" desc="A manner, object or sequence of operations for accomplishing a task especially using technical processes, methods, or knowledge" id="111" />
+	<term name="Terrorism" desc="Premeditated threat or act of violence, against noncombatant persons, property, environmental, or economic targets, to induce fear or to intimidate, coerce or affect a government, the civilian population, or any segment thereof, in furtherance of political, social, ideological, or religious objectives" id="112" />
+	<term name="Threat" desc="Entity, action, or occurrence, whether natural or man-made, that has or indicates the potential to pose violence or danger to life, information, operations and/or property" id="113" />
+	<term name="Tiering" desc="System of organization utilizing ranked levels to sort information or things" id="114" />
+	<term name="Transnational Infrastructure" desc="Public or private systems and assets, whether physical or virtual, used and maintained by more than one country or which cross international borders" id="115" />
+	<term name="Vehicle Born Improvised Explosive Device (VBIED)" desc="Vehicle Born Improvised Explosive Device (VBIED) is an IED that uses a vehicle as the package or container of the device. VBIEDs come in all shapes, colors, and sizes which vary by the type of vehicles available &#8212; small sedans to large cargo trucks." id="116" />
+	<term name="Volunteer Community Service " desc="Non-obligatory service to a public entity or a private nonprofit organization that is representative of a community or a significant segment of a community and this is engaged in meeting human, educational, or environmental community needs" id="117" />
+	<term name="Vulnerability" desc="Weakness, condition or quality of being open to exploitation, or exposed to natural or man-made threats, harm or attack" id="118" />
+	<term name="Warning (message)" desc="Message providing notice of an imminent threat, or sign of impending hazard, risk or incident posing a threat to life or property" id="119" />
+	<term name="Watch (message)" desc="Message by the National Weather Service indicating that, in a defined area, conditions are favorable for a specified type of severe weather" id="120" />
+	<term name="Watch List" desc="A compilation of identified data attributes necessary to support activities addressing specific issues of concern" id="121" />
+	<term name="Weapon of Mass Destruction" desc="Weapon capable of a high order of destruction and/or of being used in such a manner as to destroy large numbers of people or an amount of property" id="122" />
+	<term name="WMD Detection Technology" desc="Electronic and/or mechanical means used to assist in the discovery and identification of a weapon of mass destruction or components thereof" id="123" />
+	
+</glossary>

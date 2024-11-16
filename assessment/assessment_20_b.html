@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CTAM</title>
+<style type="text/css">
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+}
+</style>
+<link href="../style/dhs_text.css" rel="stylesheet" type="text/css" />
+<!--SCRIPT START BLOCK-->
+
+
+
+<script type="text/javascript" src="../js/assessment.js"></script>
+<script language="javascript">
+var Correct_Answer = "Correct! Select Close to continue.";
+var Incorrect_Answer = "Incorrect. The correct answer is displayed. Encoding refers to how information is processed into long-term memories. For more information on this topic, review Module 9. Select Next to continue.";
+var Remediation = "Mod 9";
+var CorrectOption = "B";
+
+function Clicked(e)
+{
+    if (e.keyCode == 13)
+    {
+        getStarted();
+    }
+}
+
+function getStarted()
+{
+
+var currentFileName = document.getElementById("submitme").src.substring(document.getElementById("submitme").src.lastIndexOf("/")+1,document.getElementById("submitme").src.length);
+
+	if(currentFileName == "submit_disable.jpg")
+	{
+		return false;
+	}
+	else
+	{
+		displayNextPage(CorrectOption);
+	}
+}
+</script>
+
+
+</head>
+<body onLoad="writeTags();" onkeydown="page_Keydown(event,this);">
+
+<table width="100%"  height="100%" border="0" cellpadding="0" cellspacing="0" id="bodyText">
+  <tr>
+    <td height="114px" align="left" valign="top" scope="col"><div id="divHeader"></div></td></tr>
+  <tr>
+    <td align="left" valign="top"><table width="990" height="490" border="0" cellpadding="10" cellspacing="0">
+      <tr>
+        <td valign="top"><table width="95%" border="0" cellpadding="10" cellspacing="0">
+          <tr>
+            <td colspan="3" valign="top" tabindex="2"><span class="pagetitle" style="font-size:large">
+<a name="maincontent" id="maincontent"></a>Question 20 of 35</span><br />
+                <br />
+                Which is that common memory concept that deals with how information is processed into long-term memories?
+                <br/></td>
+          </tr>
+          <form action="" name="form1" id="form1"  >
+            <tr >
+              <td valign="top" width="15" ><input id="Quiz1" type="radio" name="RadioGroup1"  onclick="enableSubmit()" alt="radio button 1"  value="A"  tabindex="3" /></td>
+              <td colspan="2"><label for  = "Quiz1">Retrieval</label>
+              <br /></td>
+              <!-- paste the distractor between the label tags, don't edit anything else in the table -->
+            </tr>
+            <tr>
+              <td valign="top" width="15"><input id="Quiz2" type="radio" name="RadioGroup1"  onclick="enableSubmit()" alt="radio button 2"  value="B" tabindex="4"  /></td>
+              <td colspan="2"><label for  = "Quiz2">Encoding</label>
+              <br /></td>
+              <!-- paste the distractor between the label tags, don't edit anything else in the table -->
+            </tr>
+            <tr>
+              <td valign="top" width="15"><input id="Quiz3" type="radio" name="RadioGroup1"  onclick="enableSubmit()" alt="radio button 3"  value="C"  tabindex="5" /></td>
+              <td colspan="2"><label for  = "Quiz3">Filtering</label>
+                <br /></td>
+              <!-- paste the distractor between the label tags, don't edit anything else in the table -->
+            </tr>
+            <tr>
+              <td valign="top" width="15"><input id="Quiz4" type="radio" name="RadioGroup1"  onclick="enableSubmit()" alt="radio button 4"  value="D" tabindex="6" /></td>
+              <td colspan="2"><label for  = "Quiz4">Storage</label><br /></td>
+              <!-- paste the distractor between the label tags, don't edit anything else in the table -->
+            </tr>
+            <tr>
+              <td colspan="3" align="left" style="padding-top:10px"><!--<a href="javascript:Clicked()" ></a>-->
+                  <!--<input type=button id="btnSubmit" value="Done" name="Submit"  onclick="javascript:SubmitClicked()"/></td>-->
+                  <img   src="../images/submit_disable.jpg" alt="Submit your answer" name="submitme" width="78" height="27" id="submitme" onClick="getStarted()" onKeyPress="Clicked(event)"  tabindex="7" /></td>
+              </tr>
+            <tr>
+              <td></td>
+              <td width="10" valign="top"></td>
+              <td width="100%" valign="top"></td>
+            </tr>
+          </form>
+        </table>
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+<td valign="bottom"><div id="divFooter"></div></td>
+  </tr>
+</table>
+</body>
+</html>
